@@ -1,0 +1,12 @@
+{ "n_epoch": 500,
+  "vocab_size": 1000,
+  "lr":[1e-3, 1e-4],
+  "batch_size": [128, 512],
+  "hidden_dim": [250, 500],
+  "random_seed": [5248, 3412, 6323, 9347, 7234],
+  "fa_entropy_coeff": [0.001, 0.01, 0.1, 1.0],
+  "read_function": ["concat100", "concat125", "concat175"],
+  "data_prefix": ["./egg/zoo/common_ground/example_data/10k_qa_f2_c2", 
+  	"./egg/zoo/common_ground/example_data/10k_qa_f3_c3", 
+  	"./egg/zoo/common_ground/example_data/10k_qa_f5_c5"]
+}
